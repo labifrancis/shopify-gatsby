@@ -1,14 +1,10 @@
 module.exports = {
-  siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "shopify-francis",
-  },
   plugins: [
     {
       resolve: "gatsby-source-shopify",
       options: {
-        shopName: "francisgatsby",
-        accessToken: "",
+        password: "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",
+        storeUrl: "francisgatsby.myshopify.com",
       },
     },
     "gatsby-plugin-gatsby-cloud",
